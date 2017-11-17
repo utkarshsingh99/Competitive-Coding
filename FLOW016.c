@@ -4,34 +4,35 @@ int main()
   int t;
   scanf("%d",&t);
   while (t--) {
-    float a,b;
-    scanf("%f %f",&a,&b);
-    int c=b;
+    long long int a,b,e,d;
+    scanf("%lld %lld",&e,&d);
+    a=e,b=d;
+    long long int c=d;
     if (a>b)
     {
-        while (b>=1)
+      while(b>=1)
+      {
+        if(a%b==0&&d%b==0)
         {
-          if(a%b==0)
-          {printf("%d ",b);
-              break;
-          }else
-            b--;
-        }
+          printf("%lld ",b);
+          printf("%lld\n",(e*d)/b);
+          break;
+        }else
+          b--;
+      }
     }
     else
     {
-      while (a>=1)
+      while(a>=1)
       {
-        if (b%a==0)
+        if(b%a==0&&e%a==0)
         {
-          printf("%d ",b);
+          printf("%lld ",a);
+          printf("%lld\n",(e*d)/a);
           break;
-        }
-        else
+        }else
           a--;
       }
     }
-    printf("%d\n",(a*c)/b);
-    }
   }
-
+}
