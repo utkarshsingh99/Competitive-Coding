@@ -1,4 +1,8 @@
 #include<stdio.h>
+/*
+The Euclidean Algorithm says that the GCD of 2 numbers a & b is equal to the GCD of (a-b) & b. 
+This algo has been used to solve this code
+*/
 long long int GCD(long long int,long long int);
 int main()
 {
