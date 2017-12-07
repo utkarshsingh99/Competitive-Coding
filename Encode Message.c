@@ -20,22 +20,23 @@ int main()
     size_of_n=i-1;
     for(i=0,j=size_of_n;i<strlen(a);i++)
     {
-      c=(int)a[i]-b[j];
+      printf("%c %d %d\n",a[i],a[i],b[j]);
+      c=a[i]-b[j];
       if(c<97)
         c=c+26;
       if(j==size_of_n)
       {
         direction=1;
-        i++;
-        c=(int)a[i]-b[j];
+        i++;j--;
+        c=a[i]-b[j];
         if(c<97)
           c=c+26;
       }
       if(j==0)
       {
         direction=0;
-        i++;
-        c=(int)a[i]-b[j];
+        i++;j++;
+        c=a[i]-b[j];
         if(c<97)
           c=c+26;
       }
@@ -43,7 +44,7 @@ int main()
         j++;
       if(direction==1)
         j--;
-      printf("%c",c);
+      printf("%c %d\n",c,c);
     }
     printf("\n");
   }
