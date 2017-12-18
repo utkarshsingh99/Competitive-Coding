@@ -12,7 +12,7 @@ int main()
   {
     scanf("%lld %lld",&l,&r);
     if(r-l+1==1)
-      printf("%lld\n",ar[l]);
+      printf("%lld\n",ar[l-1]);
       else
         printf("0\n");
 
