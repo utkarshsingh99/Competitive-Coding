@@ -1,3 +1,4 @@
+//ACCEPTED SOLUTION
 #include<stdio.h>
 int main()
 {
