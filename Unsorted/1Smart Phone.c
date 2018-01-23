@@ -8,4 +8,14 @@ int main()
   {
     scanf("%lld",&a[i]);
   }
+  for(ll i=0;i<n;i++)
+  {
+    for(ll j=0;j<n;j++)
+    {
+      if(a[i]<=a[j])
+      {
+        
+      }
+    }
+  }
 }

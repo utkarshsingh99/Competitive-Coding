@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-int compare(char *,char *);
-int copy(char *,char *);
+//int compare(char *,char *);
+//int copy(char *,char *);
 int main()
 {
   long int t;
@@ -45,7 +45,7 @@ int main()
       printf("Draw\n");
   }
 }
-int copy(char *p,char *q)
+/*int copy(char *p,char *q)
 {
   while(*p!='\0')
   {
@@ -66,3 +66,4 @@ int compare(char *p,char *q)
   }
   return 0;
 }
+*/
