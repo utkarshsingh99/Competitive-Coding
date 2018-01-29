@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+  int t;
+  scanf("%d",&t);
+  while(t--)
+  {
+    long long int n,a[100000],count=1;
+    scanf("%lld",&n);
+    for(int i=0;i<n;i++)
+    {
+      scanf("%lld",&a[i]);
+      if(i!=0)
+      {
+        if(a[i-1]<a[i])
+        {
+          a[i]=a[i-1];
+        }else{
+          count++;
+        }
+      }
+    }
+    printf("%lld\n",count);
+  }
+}
