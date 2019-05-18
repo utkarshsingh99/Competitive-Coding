@@ -16,7 +16,7 @@ int main() {
             // int sum1 = abs(largest - a[i]) + abs(largeIndex - i), sum2 = abs(largest - a[n - 1 - i]) + abs(largeIndex - n + 1 + i),
             //     sum3 = abs(a[i] - smallest) + abs(i - smallIndex), sum4 = abs(a[n - 1 - i] - smallest) + abs(n - 1 - i - smallIndex),
             //     sum5 = abs(largest - smallest) + abs(largeIndex - smallIndex);
-            if(smallest >= a[i] && abs(i - smallIndex) <= smallest - a[i]) {
+            if(abs(i - smallIndex) <= smallest - a[i]) {
                 smallest = a[i];
                 smallIndex = i;
             }
@@ -24,7 +24,7 @@ int main() {
             //     smallest = a[n - 1 - i];
             //     smallIndex = n - 1 - i;
             // }
-            if(largest <= a[n - 1 - i] && abs(largeIndex - n + 1 + i) <= a[n - 1 - i] - largest) {
+            if(abs(largeIndex - n + 1 + i) <= a[n - 1 - i] - largest) {
                 largest = a[n - 1 - i];
                 largeIndex = n - 1 - i;
             }
