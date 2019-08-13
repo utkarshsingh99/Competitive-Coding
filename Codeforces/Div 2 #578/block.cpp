@@ -12,20 +12,10 @@ int main() {
         }
         string flag = "YES";
         for(int i = 0; i < n-1; i++) {
-            if(h[i] <= h[i+1]) {
-                if(h[i+1] - h[i] >  m + k) {
-                    flag = "NO";
-                    break;
-                } else {
-                    m -= h[i+1] - h[i] - k;
-                    if(m < 0) {
-                        flag = "NO";
-                        break;
-                    }
-                }
-            } else {
-                int add = min(h[i] - h[i+1] + k, h[i]);
-                m+= add;
+            int add = max(0, h[i+1]-k);
+            m += h[i] - add;
+            if(m < 0) {
+                flag="NO";
             }
         }
         cout<<flag<<endl;
