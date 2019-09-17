@@ -45,26 +45,46 @@ const ll inf = 1e9;
 const double pi = acos(-1);
 
 int main(){
-    string s;
-    cin>>s;
-    int a[26]={0};
-    loop(i, 0, s.size()) {
-        a[(int)s[i]-97]++;
+    int a1, a2, k1, k2, n;
+    cin>>a1>>a2>>k1>>k2>>n;
+    int nmax = n, nmin = n;
+    nmin = n - (k1-1)*a1 - (k2-1)*a2;
+    if(nmin < 0) {
+        nmin = 0;
     }
-    bool alleven = true;
-    loop(i, 0, 26) {
-        if(a[i]%2!=0) {
-            alleven = false;
-            break;
+    int maxCount = 0;
+    if(k2 < k1) {
+        for(int i = 0; i < a2; i++) {
+            nmax -= k2;
+            if(nmax < 0) {
+                break;
+            }
+            maxCount++;
         }
-    }
-    if(!alleven) {
-        if(s.size() % 2 != 0) {
-            cout<<"First\n";
-        } else {
-            cout<<"Second\n";
+        // cout<<maxCount<<endl;
+        for(int i = 0; i < a1; i++) {
+            nmax -= k1;
+            if(nmax < 0) {
+                break;
+            }
+            maxCount++;
         }
     } else {
-        cout<<"First\n";
+        for(int i = 0; i < a1; i++) {
+            nmax -= k1;
+            if(nmax < 0) {
+                break;
+            }
+            maxCount++;
+        }
+        for(int i = 0; i < a2; i++) {
+            nmax -= k2;
+            if(nmax < 0) {
+                break;
+            }
+            maxCount++;
+        }
     }
+    cout<<nmin<<" "<<maxCount<<endl;
+   return 0;
 }

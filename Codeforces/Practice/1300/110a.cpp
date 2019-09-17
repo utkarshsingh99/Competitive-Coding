@@ -45,6 +45,10 @@ const ll inf = 1e9;
 const double pi = acos(-1);
 
 int main(){
+    #ifndef ONLINE_JUDGE
+        FILE_READ_IN
+        // FILE_READ_OUT
+    #endif
     ll n;
     cin>>n;
     ll count = 0;

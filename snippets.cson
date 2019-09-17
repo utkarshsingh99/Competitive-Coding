@@ -28,15 +28,6 @@
               $3
             }
             """
-  'Initialise':
-   'prefix': 'begin'
-   'body': """
-          #include<stdio.h>
-          int main()
-          {
-            $1
-          }
-          """
   'testcases':
     'prefix': 'test'
     'body': """
@@ -52,4 +43,3 @@
     'body': """
             scanf("%s$1",$2);
 $3
-"""

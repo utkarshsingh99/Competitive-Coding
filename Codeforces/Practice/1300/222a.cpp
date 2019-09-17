@@ -47,35 +47,21 @@ const double pi = acos(-1);
 int main(){
     int n, k;
     cin>>n>>k;
-    vector <int> q;
-    for(int i = 0; i < n; i++) {
-        int a;
-        cin>>a;
-        q.push_back(a);
-    }
-    for(int i = 0; i < n; i++) {
-        int simi = q[0], flag = 0;
-        vector<int>::iterator j;
-        for (j = q.begin(); j < q.end(); j++)
-        {
-            if (*j == simi)
-            {
-                continue;
-            }
-            else
-            {
-                flag = 1;
-                break;
-            }
+    int a[n];
+    loop(i, 0, n) 
+        cin>>a[i];
+    int lc = n-1;
+    loopr(i, n-2, 0) {
+        if(a[i] == a[n-1]) {
+            lc--;
+        } else {
+            break;
         }
-        if (!flag)
-        {
-            cout << i << endl;
-            return 0;
-        }
-        q.push_back(q[k-1]);
-        q.erase(q.begin());
     }
-    cout<<"-1";
+    if(k-1 < lc) {
+        cout<<"-1\n";
+    } else {
+        cout<<lc<<endl;
+    }
    return 0;
 }

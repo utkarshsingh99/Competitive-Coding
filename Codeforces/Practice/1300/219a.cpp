@@ -45,31 +45,35 @@ const ll inf = 1e9;
 const double pi = acos(-1);
 
 int main(){
+    // #ifndef ONLINE_JUDGE
+    //     FILE_READ_IN
+    //     // FILE_READ_OUT
+    // #endif
     int k;
     cin>>k;
     string a;
     cin>>a;
-    int alp[26] = {0};
-    for(int i = 0; i < a.size(); i++) {
+    int alp[26]={0};
+    if(a.size()%k != 0) {
+        cout<<"-1\n";
+        return 0;
+    }
+    loop(i, 0, a.size()) {
         alp[(int)a[i]-97]++;
     }
-    for(int i = 0; i < 26; i++) {
-        if(alp[i] < k && alp[i] != 0 && (alp[i]%k)!=0) {
-            cout<<"-1";
+    loop(i, 0, 26) {
+        if(alp[i] < k && alp[i]!=0) {
+            cout<<"-1\n";
             return 0;
         }
     }
-    for(int i = 0; i < k; i++) {
-        for(int j = 0; j < 26; j++) {
-            if(alp[j] > 0) {
-                int lim = alp[j] / k;
-                for (int m = 1; m < lim; m++)
-                {
-                    cout << (char)(j + 97);
-                    alp[j]--;
-                }
-            }
+    loop(m, 0, k) {
+        loop(i, 0, 26) {
+            int nn = alp[i]/k;
+            loop(j, 0, nn) 
+                cout<<(char)(i+97);
         }
     }
+    cout<<endl;
    return 0;
 }

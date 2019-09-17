@@ -43,43 +43,24 @@ using ord_set = tree<T,null_type,less<T>,rb_tree_tag,tree_order_statistics_node_
 const ll maxn = 1e5;
 const ll inf = 1e9;
 const double pi = acos(-1);
-ll pythagoreanTriplets(int limit)
-{
-
-    // triplet: a^2 + b^2 = c^2
-    int a, b, c = 0;
-
-    // loop from 2 to max_limitit
-    int m = 2;
-    ll count = 0;
-    // Limiting c would limit
-    // all a, b and c
-    while (c < limit)
-    {
-
-        // now loop on j from 1 to i-1
-        for (int n = 1; n < m; ++n)
-        {
-
-            // Evaluate and print triplets using
-            // the relation between a, b and c
-            a = m * m - n * n;
-            b = 2 * m * n;
-            c = m * m + n * n;
-
-            if (c > limit)
-                break;
-            count++;
-        }
-        m++;
-    }
-    return count;
-}
 
 int main(){
+    #ifndef ONLINE_JUDGE
+        FILE_READ_IN
+        FILE_READ_OUT
+    #endif
     int n;
     cin>>n;
-    ll ans = pythagoreanTriplets(n);
-    cout<<ans<<endl;
+    int x = 1, y = 1, count = 0;
+    loop(a, 1, n) {
+        loop(b, a, n) {
+            double c = sqrt(a*a+b*b);
+            // cout<<a<<" "<<b<<" "<<c<<endl;
+            if(c-floor(c) == 0 && c <= n) {
+                count++;
+            }
+        }
+    }
+    cout<<count<<endl;
    return 0;
 }

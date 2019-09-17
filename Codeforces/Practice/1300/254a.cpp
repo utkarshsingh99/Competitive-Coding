@@ -49,11 +49,27 @@ int main(){
     freopen("output.txt", "w", stdout);
     int n;
     cin>>n;
-    pair <int, list <int>> a[n];
-    for(int i = 0; i < n; i++) {
+    list <int> a[5001];
+    loop(i, 0, 2*n) {
         int c;
         cin>>c;
-
+        a[c].push_back(i+1);
+    }
+    loop(i, 0, 5001) {
+        if(a[i].size() %2 != 0) {
+            cout<<"-1\n";
+            return 0;
+        }
+    } 
+    loop(i, 0, 5001) {
+        if(a[i].size() != 0) {
+            while(a[i].size() != 0) {
+                cout<<a[i].front()<<" ";
+                a[i].pop_front();
+                cout<<a[i].front()<<endl;                
+                a[i].pop_front();
+            }
+        }
     }
     return 0;
 }
