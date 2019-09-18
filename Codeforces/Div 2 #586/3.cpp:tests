@@ -1,0 +1,97 @@
+[
+	{
+		"correct_answers":
+		[
+			"Mike\nAnn\nAnn\nMike"
+		],
+		"test": "abba\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Mike\nMike\nMike"
+		],
+		"test": "cba\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Mike\nAnn\nAnn\nAnn\nAnn\nAnn",
+			"Mike\nAnn\nAnn\nAnn\nAnn\nMike"
+		],
+		"test": "abbbbb\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Mike"
+		],
+		"test": "a\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Mike\nAnn\nAnn\nAnn",
+			"Mike\nAnn\nAnn\nMike"
+		],
+		"test": "abcd\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Mike\nAnn\nAnn\nAnn\nAnn\nMike\nAnn\nAnn",
+			"Mike\nAnn\nAnn\nAnn\nAnn\nMike\nAnn\nMike"
+		],
+		"test": "abcccacb\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Mike\nMike\nMike\nMike\nMike\nMike\nMike\nMike\nMike\nMike\nMike\nMike\nMike\nMike"
+		],
+		"test": "aaaaaaaaaaaaaa\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Mike\nMike\nMike\nMike"
+		],
+		"test": "dcba\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Mike\nMike\nMike\nMike"
+		],
+		"test": "cbbb\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Mike\nAnn\nAnn\nAnn\nAnn",
+			"Mike\nAnn\nAnn\nAnn\nMike"
+		],
+		"test": "abbbb\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Mike\nAnn\nMike\nAnn\nMike\nAnn\nMike\nAnn"
+		],
+		"test": "abababab\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Mike\nAnn\nAnn\nAnn\nAnn\nAnn\nAnn"
+		],
+		"test": "acccccb\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Mike\nMike\nMike\nAnn"
+		],
+		"test": "zzab\n"
+	}
+]

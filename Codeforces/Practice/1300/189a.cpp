@@ -50,22 +50,16 @@ int main(){
     loop(i, 0, 3) {
         cin>>a[i];
     }
-    sort(a, a+3, greater<int>());
+    sort(a, a+3);
     int maxn = 0;
     // cout<<a[0]<<" "<<a[1]<<" "<<a[2]<<endl;
-    for(int i = 0; i <= n/a[0];i++) {
-        for(int j = 0; j <= n/a[1] ;j++) {
-            for(int k = 0; k <= n/a[2] ; k++) {
-                if(i*a[0] + j*a[1] + k*a[2] == n) {
-                    // cout<<i<<" "<<j<<" "<<k<<endl;
-                    // cout<<i+j+k<<endl;
-                    maxn = max(i+j+k, maxn);
-                    // return 0;
-                } else if(i*a[0] + j*a[1] + k*a[2] > n)
-                    break;
+    loop(i, 0, n) {
+        loop(j, 0, n) {
+            int l = i*a[2] + a[1]*j;
+            if((n-l)%a[0] == 0 && n >= l) {
+                // cout<<i<<" "<<j<<" "<<(n-l)/a[0]<<" "<<i+j+(n-l)/a[0]<<endl;
+                maxn = max(maxn, i+j+(n-l)/a[0]);
             }
-            if (i * a[0] + j * a[1] > n)
-                break;
         }
     }
     cout<<maxn<<endl;

@@ -1,0 +1,809 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"FILE",
+				"FILE_READ_IN"
+			],
+			[
+				"FIL",
+				"FILE_READ_OUT"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"file",
+				"filePath"
+			],
+			[
+				"see",
+				"sendFile"
+			],
+			[
+				"send",
+				"send404"
+			],
+			[
+				"fil",
+				"fileContent"
+			],
+			[
+				"write",
+				"writeHead"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"pr",
+				"probB"
+			],
+			[
+				"i",
+				"inc\t#include <…>"
+			],
+			[
+				"cha",
+				"changeNum"
+			],
+			[
+				"s",
+				"status"
+			],
+			[
+				"st",
+				"standardChange"
+			],
+			[
+				"ch",
+				"change"
+			],
+			[
+				"chan",
+				"change"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"retur",
+				"returnArray"
+			],
+			[
+				"chang",
+				"changeNum"
+			],
+			[
+				"div",
+				"divDeclare"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"align",
+				"text-align\tproperty"
+			],
+			[
+				"inp",
+				"inputCheck"
+			],
+			[
+				"in",
+				"inputCheck"
+			],
+			[
+				"input",
+				"inputCheck"
+			],
+			[
+				"inn",
+				"inputTextContent"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"b",
+				"border\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"al",
+				"vertical-align\tproperty"
+			],
+			[
+				"col-md",
+				"col-md-4"
+			],
+			[
+				"col",
+				"col-md-4"
+			],
+			[
+				"Task",
+				"TaskBreak"
+			],
+			[
+				"Ta",
+				"TaskBreak"
+			],
+			[
+				"brea",
+				"breakFlag"
+			],
+			[
+				"br",
+				"breakInterval"
+			],
+			[
+				"clea",
+				"clearInterval"
+			],
+			[
+				"limi",
+				"limitOfBreak"
+			],
+			[
+				"ma",
+				"margin-left\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"borde",
+				"border-radius\tproperty"
+			],
+			[
+				"border",
+				"border\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"bord",
+				"border\tproperty"
+			],
+			[
+				"backgr",
+				"background-repeat\tproperty"
+			],
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"clear",
+				"clearButton"
+			],
+			[
+				"stats",
+				"statsDisplay"
+			],
+			[
+				"lim",
+				"limitOfBreak"
+			],
+			[
+				"btn-",
+				"btn-warning"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"sta",
+				"started"
+			],
+			[
+				"pomo",
+				"Pomodoro"
+			],
+			[
+				"strok",
+				"stroke"
+			],
+			[
+				"m",
+				"meta\tTag"
+			],
+			[
+				"bo",
+				"bottom\tproperty"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"oe",
+				"operand"
+			],
+			[
+				"opera",
+				"operand"
+			],
+			[
+				"op",
+				"operators"
+			],
+			[
+				"f",
+				"five"
+			],
+			[
+				"border-top",
+				"border-top-color\tproperty"
+			],
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"tr",
+				"translateX()\ttransform"
+			],
+			[
+				"trans",
+				"translateY"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"contain",
+				"container-fluid"
+			],
+			[
+				"object",
+				"object-fit\tproperty"
+			],
+			[
+				"marig",
+				"margin-bottom\tproperty"
+			],
+			[
+				"alig",
+				"vertical-align\tproperty"
+			],
+			[
+				"nam",
+				"nameOfShow"
+			],
+			[
+				"name",
+				"nameOfChannel"
+			],
+			[
+				"c",
+				"channel"
+			],
+			[
+				"ca",
+				"callbackUrl"
+			],
+			[
+				"tw",
+				"twitchUrl"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"animation",
+				"animation-timing-function\tproperty"
+			],
+			[
+				"anima",
+				"animation-duration\tproperty"
+			],
+			[
+				"text-",
+				"text-decoration\tproperty"
+			],
+			[
+				"list-style",
+				"list-style-type\tproperty"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"se",
+				"searchButton"
+			],
+			[
+				"sea",
+				"searchUrl"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Codeforces/Practice/1300/output.txt",
+			"settings":
+			{
+				"buffer_size": 2,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"pan",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"ANF: New File"
+			],
+			[
+				"Snippet:",
+				"Snippet: main()"
+			],
+			[
+				"Snippet: ",
+				"Snippet: CDATA"
+			],
+			[
+				"set syntax: co",
+				"Set Syntax: ActionScript"
+			],
+			[
+				"syn",
+				"Set Syntax: C++"
+			],
+			[
+				"ANF",
+				"ANF: New File"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"togg",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"toggle term",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"Terminus: Open Default Shell in View",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/utkarsh/Work/Competitive Coding/Codeforces/Practice/1300/input.txt",
+		"/home/utkarsh/Work/Competitive Coding/Codeforces/Practice/1300/166a.cpp",
+		"/home/utkarsh/Work/Competitive Coding/Codeforces/Practice/1300/189a.cpp",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2019-09-17-Beginning-of-a-new-journey.md",
+		"/home/utkarsh/.config/sublime-text-3/Packages/AdvancedNewFile/Default (Linux).sublime-keymap",
+		"/home/utkarsh/Work/Competitive Coding/Codeforces/Practice/1300/110a.cpp",
+		"/home/utkarsh/Work/Competitive Coding/snippets.cson",
+		"/home/utkarsh/.config/sublime-text-3/Packages/User/filename.sublime-snippet",
+		"/home/utkarsh/Work/Competitive Coding/Codeforces/Practice/1300/prac.cpp",
+		"/home/utkarsh/Work/Competitive Coding/Practice/1300",
+		"/home/utkarsh/Work/Competitive Coding/Codeforces/Practice/1300/110a",
+		"/home/utkarsh/Work/SideProjects/ZulipChatBot/python-zulip-api/py3_requirements.txt",
+		"/home/utkarsh/JavaScript/First Lesson/public/javascripts/chat_ui.js",
+		"/home/utkarsh/JavaScript/First Lesson/public/stylesheets/style.css",
+		"/home/utkarsh/JavaScript/First Lesson/public/javascripts/chat.js",
+		"/home/utkarsh/JavaScript/First Lesson/lib/chat_server.js",
+		"/home/utkarsh/JavaScript/First Lesson/server.js",
+		"/home/utkarsh/JavaScript/First Lesson/public/index.html",
+		"/home/utkarsh/test.html",
+		"/home/utkarsh/JavaScript/First Lesson/package.json",
+		"/home/utkarsh/JavaScript/Cash Register/index.html",
+		"/home/utkarsh/Work/Competitive Coding/Codechef/June Long Challenge/Naive.cpp",
+		"/home/utkarsh/JavaScript/Cash Register/main.js",
+		"/home/utkarsh/Work/Side Projects/Tic Tac Toe/main.js",
+		"/home/utkarsh/Work/Side Projects/Tic Tac Toe/main.css",
+		"/home/utkarsh/Work/Side Projects/Tic Tac Toe/index.html",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-26-Tic-Tac-Toe.md",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-24-Adding-ReadMe-Files-to-Side-Projects.md",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-23-#100DaysOfCode-Day-8.md",
+		"/home/utkarsh/Work/Side Projects/Pomodoro Clock/pomo.js",
+		"/home/utkarsh/Work/Side Projects/Pomodoro Clock/index.html",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-22-#100DaysOfCode-Day-7.md",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-22-#100DaysOfCode-Day-6.md",
+		"/home/utkarsh/Work/Competitive Coding/Codechef/March Long Challenge/Voting.cpp",
+		"/home/utkarsh/Work/Competitive Coding/SPOJ/23-05-2018-Problem3.cpp",
+		"/home/utkarsh/Work/Side Projects/p5-Coding-Challenges/Clock/p51.js",
+		"/home/utkarsh/Work/Side Projects/Pomodoro Clock/main.css",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-21-Pomodoro-Clock-Continued.md",
+		"/home/utkarsh/Work/Side Projects/JS Calculator/index.html",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-20-Pomodoro-Clock.md",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-19-JS-Calculator-Continued.md",
+		"/home/utkarsh/Work/Side Projects/p5-Coding-Challenges/Clock/p51.html",
+		"/home/utkarsh/Work/Side Projects/JS Calculator/main.css",
+		"/home/utkarsh/Work/Side Projects/JS Calculator/operator.css",
+		"/home/utkarsh/Work/Side Projects/JS Calculator/calc.js",
+		"/home/utkarsh/Work/Side Projects/JS Calculator/history.js",
+		"/home/utkarsh/Work/Side Projects/JS Calculator/screen.js",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-18-JS-Calculator-Day-4.md",
+		"/home/utkarsh/Work/Side Projects/Wikipedia Viewer/clock.js",
+		"/home/utkarsh/Work/Side Projects/Wikipedia Viewer/wiki.js",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-17-Vacation-Day-3.md",
+		"/home/utkarsh/Work/Side Projects/Wikipedia Viewer/index.html",
+		"/home/utkarsh/Work/Side Projects/Wikipedia Viewer/main.css",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-17-Implementing-p5.js-in-Existing-Projects.md",
+		"/home/utkarsh/Work/Side Projects/Twitch TV/main.css",
+		"/home/utkarsh/Work/Side Projects/Twitch TV/twitch.js",
+		"/home/utkarsh/Work/Side Projects/Twitch TV/index.html",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-16-Vacation-Day-2.md",
+		"/home/utkarsh/Work/Side Projects/Random Quote Generator/main.js",
+		"/home/utkarsh/Work/Side Projects/Weather Forecast/main.js",
+		"/home/utkarsh/Work/utkarshsingh99.github.io/_posts/2018-05-02-Plan-for-JS-Future.md"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"auto"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"folders":
+	[
+		{
+			"path": "/home/utkarsh/Work/Competitive Coding/Codeforces/Practice"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Codeforces/Practice/1300/output.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1568813648.68,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.596752812453,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 120.0
+	},
+	"output.exec":
+	{
+		"height": 31.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

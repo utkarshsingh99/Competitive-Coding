@@ -45,57 +45,32 @@ const ll inf = 1e9;
 const double pi = acos(-1);
 
 int main(){
+    // FILE_READ_IN
+    // FILE_READ_OUT
     int n, k;
     cin>>n>>k;
     pair <int, int> a[n];
     loop(i, 0, n) {
         cin>>a[i].first>>a[i].second;
     }
-    sort(a, a+n, [](auto a, auto b) {
+    sort(a, a+n, [](pair <int, int> a, pair <int, int> b) {
         if(a.first != b.first) {
             return a.first > b.first;
         } else {
             return a.second < b.second;
         }
     });
-    int rank = 0, j = -1;
-    while(rank != k-1) {
-        j++;
-        if(j == n-1) {
-            break;
+    int count = 1;
+    bool start = false;
+    loop(i, 1, n) {
+        if(a[i].first == a[i-1].first && a[i].second == a[i-1].second) {
+            count++;
+        } else {
+            if(i >= k) {
+                break;
+            }
+            count = 1;
         }
-        if(a[j].first > a[j+1].first) {
-            rank++;
-            continue;
-        } else if (a[j].second < a[j+1].second) {
-            rank++;
-            continue;
-        }
-    }
-    // cout<<rank<<endl;
-    pair <int, int> t = a[rank];
-    int i = rank+1, count = 0;
-    // if(rank != n) {
-
-    while(a[i].second == t.second) {
-        if(a[i].first != t.first) 
-            break;
-        i++;
-        count++;
-        if(i == n)
-            break;
-    }
-    // }
-    i = rank;
-    // cout << count << endl;
-    while (a[i].second == t.second)
-    {
-        if (a[i].first != t.first)
-            break;
-        i--;
-        count++;
-        if(i==-1)
-            break;
     }
     cout<<count<<endl;
     return 0;

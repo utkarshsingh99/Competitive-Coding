@@ -1,0 +1,16 @@
+[
+	{
+		"correct_answers":
+		[
+			"0"
+		],
+		"test": "4\nezor\n"
+	},
+	{
+		"correct_answers":
+		[
+			"1 1 0"
+		],
+		"test": "10\nnznooeeoer\n"
+	}
+]
