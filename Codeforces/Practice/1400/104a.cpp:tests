@@ -1,0 +1,37 @@
+[
+	{
+		"correct_answers":
+		[
+			"4"
+		],
+		"test": "12\n"
+	},
+	{
+		"correct_answers":
+		[
+			"15"
+		],
+		"test": "20\n"
+	},
+	{
+		"correct_answers":
+		[
+			"0"
+		],
+		"test": "10\n"
+	},
+	{
+		"correct_answers":
+		[
+			"4"
+		],
+		"test": "21\n"
+	},
+	{
+		"correct_answers":
+		[
+			"0"
+		],
+		"test": "25\n"
+	}
+]

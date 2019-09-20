@@ -40,7 +40,7 @@ int main()
     	loopr(i, n-1, 0) {
     		if(i != n-1) {
     			if(a[i] == a[i+1] - 1) {
-    				ll inc = min(b[i], postrc[i-1]);
+    				ll inc = min(b[i], postrc[i+1]);
     				postrc[i] = inc + b[i];
     			} else {
     				postrc[i] = b[i];
