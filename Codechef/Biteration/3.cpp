@@ -12,10 +12,12 @@ using namespace std;
 int main()
 {
     FAST
-    #ifndef ONLINE_JUDGE
-        // FILE_READ_IN
-        // FILE_READ_OUT
-    #endif
+    // #ifndef ONLINE_JUDGE
+    //     // FILE_READ_IN
+    //     // FILE_READ_OUT
+    // #endif
+    ll t;
+ 	cin>>t;
     ll n = 1;
     vector <int> a;
     a.push_back(1);
@@ -29,8 +31,6 @@ int main()
     // 	// 	ans[i]%=1000000007;
     // 	// }
     // }
- 	ll t;
- 	cin>>t;
  	while(t--) {
  		ll in;
  		cin>>in;

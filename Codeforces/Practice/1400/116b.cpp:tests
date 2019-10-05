@@ -1,0 +1,20 @@
+[
+	{
+		"test": "2 3\nPPW\nW.P\n"
+	},
+	{
+		"test": "3 3\nP.W\n.P.\nW.P\n"
+	},
+	{
+		"test": "3 10\nWPPP...PP.\n.P...WW..W\n.WWP.PP.PW\n"
+	},
+	{
+		"test": "1 2\nWP\n"
+	},
+	{
+		"test": "2 2\nWP\nWP\n"
+	},
+	{
+		"test": "2 2\n..\nWP\n"
+	}
+]
