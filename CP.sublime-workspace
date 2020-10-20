@@ -489,11 +489,11 @@
 		"selected_items":
 		[
 			[
-				"side",
+				"sid",
 				"View: Toggle Side Bar"
 			],
 			[
-				"sid",
+				"side",
 				"View: Toggle Side Bar"
 			],
 			[
@@ -575,8 +575,7 @@
 	},
 	"expanded_folders":
 	[
-		"/home/utkarsh/Work/Competitive Coding/Codeforces/Practice",
-		"/home/utkarsh/Work/Competitive Coding/Codeforces/Practice/1400"
+		"/home/utkarsh/Work/Competitive Coding/Codeforces/Practice"
 	],
 	"file_history":
 	[
@@ -709,7 +708,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1569473587.0,
+							"markdonw_live_preview_last_run": 1570957365.44,
 							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -738,7 +737,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1569918145.51,
+							"markdonw_live_preview_last_run": 1570957365.45,
 							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -767,13 +766,16 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
+							"markdonw_live_preview_last_run": 1570957365.44,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 165.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -804,6 +806,7 @@
 							"edit_mode": false,
 							"fold_buttons": false,
 							"line_numbers": false,
+							"markdonw_live_preview_last_run": 1570957365.43,
 							"syntax": "Packages/CppFastOlympicCoding/TestSyntax.tmLanguage",
 							"word_wrap": true
 						},
@@ -811,7 +814,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -839,7 +842,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1569473586.99,
+							"markdonw_live_preview_last_run": 1570957365.43,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -971,7 +974,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 187.0,
 	"status_bar_visible": true,
 	"template_settings":

@@ -1,0 +1,16 @@
+[
+	{
+		"correct_answers":
+		[
+			"2\n6\n4"
+		],
+		"test": "3\n3\nabc 0\nabc 1\nefg 1\n7\nfck 1\nfck 0\nfck 1\nbody 0\nbody 0\nbody 0\nram 0\n5\nvv 1\nvv 0\nvv 0\nvvv 1\nvvv 1\n"
+	},
+	{
+		"correct_answers":
+		[
+			"2\n6\n3"
+		],
+		"test": "3\n3\nabc 0\nabc 1\nefg 1\n7\nfck 1\nfck 0\nfck 1\nbody 0\nbody 0\nbody 0\nram 0\n5\nvv 1\nvv 0\nvv 0\nvv 1\nvv 1\n"
+	}
+]
